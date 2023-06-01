@@ -11,6 +11,11 @@ membersContainer.forEach((item, i) => {
     })
 
     previousButton[i].addEventListener("click", () => {
-        item.scrollLeft -= containerWidth;
-    })
+        if (item.scrollLeft > 0) {
+          item.scrollLeft -= containerWidth;
+        } else {
+          item.scrollLeft = 0; // Scroll to the beginning
+        }
+      });
+
 });
