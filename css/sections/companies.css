@@ -1,0 +1,35 @@
+.companies {
+    margin: 200px auto;
+}
+
+.companies__heading {
+    text-align: center;
+    
+    font-size: 35px;
+    line-height: 47px;
+    font-weight: 700;
+}
+
+.comapnies-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 30px;
+    margin: 150px 0 40px;
+}
+
+.companies__company-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.companies__company-info img{
+    height: 90px;
+    width: 177px;
+    object-fit: contain;
+}
+

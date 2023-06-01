@@ -1,0 +1,59 @@
+.features {
+    position: relative;
+    top: -200px;
+}
+
+.features__heading {
+    font-size: 35px;
+    line-height: 47px;
+    font-weight: 800;
+
+    text-align: center;
+}
+
+.features__content {
+    width: 90%;
+
+    display: flex;
+    margin: 0 auto;
+}
+
+.first {
+    flex: 1.4;
+}
+
+.second {
+flex: 1;
+}
+
+.features__feature {
+    margin: 40px 0;
+}
+
+.features__feature-header {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.features__feature-header img {
+    width: 70px; 
+    height: 70px; 
+    object-fit: contain;
+}
+
+.features__feature-heading {
+    font-size: 24px; 
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.features__description {
+    font-size: 21px; 
+    line-height: 28px;
+
+    margin-bottom: 20px;
+}

@@ -1,0 +1,159 @@
+/* Import fonts */
+  @import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+  @import url('https://fonts.cdnfonts.com/css/nunito-sans');
+
+
+                
+
+/* css files imports  */
+
+@import url('sections/header.css');
+@import url('sections/hero.css');
+@import url('sections/sec-2.css');
+@import url('sections/team.css');
+@import url('sections/features.css');
+@import url('sections/companies.css');
+@import url('sections/footer.css');
+@import url('sections/members.css');
+
+/* Variables */
+:root {
+    --segoe: "Segoe UI", sans-serif;
+    --nunito: "Nunito Sans", sans-serif;
+    
+    --primary: #1492E6;
+    --grey: #707070;
+    --color-white: #fff;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 100vw;
+    margin: 0 auto;
+    background-color: var(--color-white);
+
+    font-family: var(--nunito);
+}
+
+.page-content {
+    position: relative;
+    top: 111px;
+    width: 100vw;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 33px;
+    width: 247px;
+    padding: 15px 0;
+    
+    background-color: var(--primary);
+    color: white;
+
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 400;
+
+    box-shadow: 0 16px 48px #00000029;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(20, 146, 230, .8);
+}
+
+/* Add responsiveness */
+
+@media (max-width: 900px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__nav {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header__menu-mobile {
+        display: inline-block;
+    }
+
+    header {
+        background-color: var(--grey);
+    }
+/* HERO */
+
+    .hero {
+        display: block;
+        text-align: center;
+    }
+
+    .hero-content-info{
+        text-align: center;
+        padding: 32px;
+    }
+
+    .hero img {
+        display: inline-block;
+    }
+
+    /* SEC-2 */
+    .sec-2 {
+        text-align: center;
+    }
+    .sec-2__card {
+        flex-direction: column;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    /* TEAM */
+    .team {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* FEATURES */
+    .features {
+        text-align: center;
+    }
+
+    .no-phone {
+        display: none;
+    }
+
+    .features__feature-header {
+        flex-direction: column;
+    }
+
+    /* COMPANIES */
+    .companies {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .comapnies-content {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .companies__heading {
+        padding-top: 120px;
+    }
+
+    .left {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 1077px) {
+
+}

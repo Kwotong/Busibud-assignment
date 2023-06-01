@@ -1,0 +1,23 @@
+.footer {
+    height: 364px; 
+    width: 100%;
+
+    background-color: black;
+    color: var(--color-white);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-text{
+    padding: 40px 0;
+
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.footer-text span {
+    font-size: 20px;
+}

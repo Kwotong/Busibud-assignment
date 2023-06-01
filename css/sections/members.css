@@ -1,0 +1,157 @@
+.members__heading {
+    text-align: center;
+
+    font-size: 35px;
+    line-height: 47px;
+    font-weight: 700;
+    
+    padding: 0 0 40px;
+}
+
+.members__content{
+    position: relative;
+    height: 343px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+
+    background-color: #F8FAFC;
+    box-shadow: 0 0 2px 1px  #00000029;
+
+    border: none; 
+    border-radius: 15px;
+    outline: none;
+}
+
+.members__member-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.members__member-header img {
+    width: 64px;
+    height: 64px; 
+    object-fit: contain;
+}
+
+.members__member-header h3 {
+    line-height: 34px;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.members__members-info {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    gap: 36px;
+    position: relative;
+    top: 80px;
+
+    overflow-x: auto;
+    scroll-behavior: smooth
+}
+
+.members__members-info::-webkit-scrollbar {
+    display: none;
+}
+
+.members__member-info {
+    max-width: 284px;
+    min-width: 284px;
+    padding: 20px; 
+
+    background-color: var(--color-white);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 1px #00000029;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.members__member-description {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.memeber__member-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.members__member-photo img {
+    width: 43px;
+    height: 43px;
+    object-fit: contain;
+}
+
+.members__member-detail {
+    display: flex; 
+    flex-direction: column;
+}
+
+.members__member-bio {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.members__member-position {
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #615C5C; 
+}
+
+.members__member-name {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.members__member-rating img {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+.arrow {
+    width: 64px;
+    height: 64px;
+
+    background-color: var(--color-white);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #00000029;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.right {
+    right: -27px;
+    bottom: 25px;
+}
+
+.left {
+    display: none;
+    left: -27px;
+    bottom: 25px;
+}
+
+.arrow:hover {
+    background-color: var(--grey)
+}
+

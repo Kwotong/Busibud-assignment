@@ -1,0 +1,28 @@
+.hero {
+    display: flex;
+    gap: 65px;
+}
+
+.hero-content-info {
+    padding: 121px 0 10px 121px;
+    text-align: left;
+}
+
+.hero__heading {
+    font-size: 40px;
+    font-family: var(--nunito);
+    font-weight: bold;
+    line-height: 54px;
+
+    color: black;
+}
+
+.hero__description {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: var(--nunito);
+
+    margin: 20px 0 62px;
+}
+
+

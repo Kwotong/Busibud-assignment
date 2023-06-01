@@ -1,0 +1,35 @@
+.team {
+    display: flex;
+    justify-content: center;
+
+    text-align: left;
+    gap: 40px;
+
+    position: relative;
+    top: -400px;
+}
+
+.team__member {
+    width: 328px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team__member img {
+    width: 243px;
+    height: 187px;
+    object-fit: contain;
+}
+
+.team__heading {
+    font-size: 18px; 
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.team__description {
+    font-size: 18px; 
+    line-height: 24px;
+}
